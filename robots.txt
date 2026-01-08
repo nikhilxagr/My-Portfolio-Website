@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nikhilxagr.vercel.app/sitemap.xml
