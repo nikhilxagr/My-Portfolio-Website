@@ -65,7 +65,7 @@
   - Optimized for all screen sizes
   - Touch-friendly navigation
 
-- 🌙 **Dark/Light Theme** *(if applicable)*
+- 🌙 **Dark/Light Theme** _(if applicable)_
   - Theme switcher functionality
   - Persistent theme preference
   - Eye-friendly color schemes
@@ -82,7 +82,7 @@
   - Interactive project cards
   - Hover effects and micro-interactions
 
-- 📧 **Contact Form** *(if applicable)*
+- 📧 **Contact Form** _(if applicable)_
   - Functional contact form
   - Form validation
   - Direct email integration
@@ -128,12 +128,12 @@
 └── Figma / Adobe XD   – Design (if applicable)
 ```
 
-### Additional Libraries *(Update based on your actual stack)*
+### Additional Libraries _(Update based on your actual stack)_
 
 - **Icons:** Font Awesome / React Icons / Heroicons
 - **Fonts:** Google Fonts / Custom fonts
-- **Analytics:** Google Analytics / Vercel Analytics *(if implemented)*
-- **Forms:** EmailJS / Formspree / Netlify Forms *(if applicable)*
+- **Analytics:** Google Analytics / Vercel Analytics _(if implemented)_
+- **Forms:** EmailJS / Formspree / Netlify Forms _(if applicable)_
 
 ---
 
@@ -197,7 +197,7 @@ My-Portfolio-Website/
 └── 📄 [config files]             # vite.config.js, etc.
 ```
 
-> **Note:** Adjust the structure above to match your actual project setup.  If you're using plain HTML/CSS/JS, the structure will be simpler.
+> **Note:** Adjust the structure above to match your actual project setup. If you're using plain HTML/CSS/JS, the structure will be simpler.
 
 ---
 
@@ -214,6 +214,7 @@ Ensure you have the following installed:
 - **Git** – [Download](https://git-scm.com/)
 
 Check versions:
+
 ```bash
 node --version
 npm --version
@@ -223,11 +224,13 @@ git --version
 ### Installation
 
 1.  **Clone the repository**
-   ```bash
-   git clone https://github.com/nikhilxagr/My-Portfolio-Website.git
-   ```
+
+```bash
+git clone https://github.com/nikhilxagr/My-Portfolio-Website.git
+```
 
 2. **Navigate to project directory**
+
    ```bash
    cd My-Portfolio-Website
    ```
@@ -252,32 +255,40 @@ git --version
 ```bash
 npm run dev
 ```
+
 or
+
 ```bash
 yarn dev
 ```
+
 or
+
 ```bash
 pnpm dev
 ```
 
 **Open your browser and visit:**
+
 ```text
 http://localhost:3000
 ```
-*(Port may vary based on your setup)*
+
+_(Port may vary based on your setup)_
 
 **Build for production:**
+
 ```bash
 npm run build
 ```
 
 **Preview production build:**
+
 ```bash
 npm run preview
 ```
 
-> **For Static HTML/CSS/JS:** Simply open `index.html` in your browser or use a local server like Live Server (VS Code extension). 
+> **For Static HTML/CSS/JS:** Simply open `index.html` in your browser or use a local server like Live Server (VS Code extension).
 
 ---
 
@@ -301,6 +312,7 @@ npm run preview
 6. Deploy
 
 **Other Deployment Options:**
+
 - **Netlify:** [netlify.com](https://www.netlify.com/)
 - **GitHub Pages:** [pages.github.com](https://pages.github.com/)
 - **Render:** [render.com](https://render.com/)
@@ -312,12 +324,14 @@ npm run preview
 ## 🎨 Portfolio Sections
 
 ### 🏠 Hero Section
+
 - Professional headline and tagline
 - Call-to-action buttons (View Projects, Contact Me)
 - Profile image/avatar
 - Social media links
 
 ### 🙋‍♂️ About Me
+
 - Professional introduction
 - Background and journey
 - Interests and passions
@@ -325,14 +339,18 @@ npm run preview
 - Downloadable resume
 
 ### 🛠 Skills & Technologies
+
 **Organized by category:**
+
 - **Frontend:** HTML5, CSS3, JavaScript, React, etc.
 - **Backend:** Node. js, Express, databases (if applicable)
 - **Tools:** Git, GitHub, VS Code, Figma, etc.
 - **Other:** Problem-solving, teamwork, communication
 
 ### 📂 Projects Showcase
+
 **Featured projects with:**
+
 - Project name and description
 - Technologies used (tech stack badges)
 - Live demo link
@@ -341,13 +359,16 @@ npm run preview
 - Key features and highlights
 
 ### 💼 Experience & Education
+
 - Work experience timeline
 - Job roles and responsibilities
 - Educational background
 - Certifications and achievements
 
 ### 📬 Contact Section
+
 **Multiple ways to reach me:**
+
 - Contact form (if implemented)
 - Direct email link
 - Social media profiles
@@ -362,12 +383,15 @@ npm run preview
 
 ```markdown
 ### Desktop View
+
 ![Desktop View](./screenshots/desktop. png)
 
 ### Mobile View
+
 ![Mobile View](./screenshots/mobile. png)
 
 ### Projects Section
+
 ![Projects](./screenshots/projects.png)
 ```
 
@@ -376,6 +400,7 @@ npm run preview
 ## 🗺 Roadmap
 
 ### Completed ✅
+
 - [x] Initial design and layout
 - [x] Responsive design implementation
 - [x] Projects showcase
@@ -384,12 +409,14 @@ npm run preview
 - [x] Deployment to Vercel
 
 ### In Progress 🚧
+
 - [ ] Blog section (if planned)
 - [ ] Dark/Light theme toggle (if planned)
 - [ ] Animations enhancement
 - [ ] Performance optimization
 
 ### Future Enhancements 🔮
+
 - [ ] Content Management System (CMS) integration
 - [ ] Multi-language support
 - [ ] Analytics dashboard
@@ -407,7 +434,7 @@ See the [open issues](https://github.com/nikhilxagr/My-Portfolio-Website/issues)
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ```text
-MIT License - feel free to use this project for learning and inspiration. 
+MIT License - feel free to use this project for learning and inspiration.
 Please provide appropriate credit if you use significant portions of the code.
 ```
 
@@ -429,6 +456,7 @@ Please provide appropriate credit if you use significant portions of the code.
 </div>
 
 ### 📧 Email
+
 - **Professional:** [nikhilgithub212206@gmail.com]
 
 ### 🌐 Other Platforms
@@ -445,9 +473,9 @@ Resources and inspiration that helped build **My Portfolio**:
 
 - [Font Awesome](https://fontawesome. com) – Icons
 - [Google Fonts](https://fonts.google.com) – Typography
-- [Unsplash](https://unsplash.com) – Stock images *(if used)*
+- [Unsplash](https://unsplash.com) – Stock images _(if used)_
 - [Vercel](https://vercel.com) – Hosting platform
-- [React Documentation](https://react.dev) *(if applicable)*
+- [React Documentation](https://react.dev) _(if applicable)_
 - [MDN Web Docs](https://developer.mozilla.org) – Web development resources
 - [GitHub Pages](https://pages.github. com) – Documentation inspiration
 

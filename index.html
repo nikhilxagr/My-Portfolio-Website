@@ -65,7 +65,7 @@
       "url": "https://nikhilxagr.vercel.app",
       "image": "https://nikhilxagr.vercel.app/Public/Images/My-Pro_Img,,,,.png",
       "sameAs": [
-        "https://github.com/nikhilxagr",
+        "nikhilxagr",
         "https://linkedin.com/in/nikhilxagr",
         "https://twitter.com/nikhilxagr",
         "https://instagram.com/codewith.nikhil"
@@ -133,733 +133,581 @@
     </script>
 
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-      <div class="nav-container">
-        <a href="#home" class="logo">Nikhil<span>.dev</span></a>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-        <ul class="navlist">
-          <li><a href="#home" class="navlinks active">Home</a></li>
-          <li><a href="#about" class="navlinks">About</a></li>
-          <li><a href="#skills" class="navlinks">Skills</a></li>
-          <li><a href="#projects" class="navlinks">Projects</a></li>
-          <li><a href="#contact" class="navlinks">Contact</a></li>
-          <li><a href="articles.html" class="navlinks">Articles</a></li>
-        </ul>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">Nikhil<span>.dev</span></a>
 
-        <div class="nav-right">
-          <button
-            class="theme-toggle"
-            id="theme-toggle"
-            aria-label="Toggle theme"
-          >
-            <i class="fas fa-moon"></i>
-          </button>
-          <button class="hamburger" id="hamburger" aria-label="Menu">
-            <i class="fas fa-bars"></i>
-          </button>
+      <ul class="navlist">
+        <li><a href="#home" class="navlinks active">Home</a></li>
+        <li><a href="#about" class="navlinks">About</a></li>
+        <li><a href="#skills" class="navlinks">Skills</a></li>
+        <li><a href="#projects" class="navlinks">Projects</a></li>
+        <li><a href="#contact" class="navlinks">Contact</a></li>
+        <li><a href="articles.html" class="navlinks">Articles</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul class="mobile-navlist">
+      <li><a href="#home" class="mobile-navlinks">Home</a></li>
+      <li><a href="#about" class="mobile-navlinks">About</a></li>
+      <li><a href="#skills" class="mobile-navlinks">Skills</a></li>
+      <li><a href="#projects" class="mobile-navlinks">Projects</a></li>
+      <li><a href="#contact" class="mobile-navlinks">Contact</a></li>
+      <li><a href="articles.html" class="mobile-navlinks">Articles</a></li>
+    </ul>
+  </div>
+
+  <main class="main-container">
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h4 class="hero-greeting">Hello, I'm</h4>
+            <h1 class="hero-title">
+              Nikhil <span class="highlight">Agrahari</span>
+            </h1>
+            <p class="hero-subtitle">
+              Web Developer | Cybersecurity Enthusiast | BCA Student
+            </p>
+            <p class="hero-description">
+              Passionate about creating modern, user-friendly web applications
+              and exploring the world of cybersecurity. Transforming ideas
+              into interactive digital experiences.
+            </p>
+
+            <div class="btn-container">
+              <a href="#contact" class="btn btn-primary">
+                <i class="fas fa-envelope"></i> Get In Touch
+              </a>
+              <a href="#projects" class="btn btn-secondary">
+                <i class="fas fa-code"></i> View Projects
+              </a>
+            </div>
+
+            <div class="social-icons">
+              <a href="https://github.com" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-image">
+            <div class="image-wrapper">
+              <div class="image-border"></div>
+              <img src="./Public/Images/My-Pro_Img,,,,.png" alt="Nikhil Agrahari" loading="lazy" />
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
 
-    <!-- Mobile Menu Overlay -->
-    <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+      <div class="scroll-indicator">
+        <a href="#about">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+    </section>
 
-    <!-- Mobile Menu -->
-    <div class="mobile-menu" id="mobile-menu">
-      <ul class="mobile-navlist">
-        <li><a href="#home" class="mobile-navlinks">Home</a></li>
-        <li><a href="#about" class="mobile-navlinks">About</a></li>
-        <li><a href="#skills" class="mobile-navlinks">Skills</a></li>
-        <li><a href="#projects" class="mobile-navlinks">Projects</a></li>
-        <li><a href="#contact" class="mobile-navlinks">Contact</a></li>
-        <li><a href="articles.html" class="mobile-navlinks">Articles</a></li>
-      </ul>
-    </div>
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About <span>Me</span></h2>
+          <p class="section-subtitle">
+            Get to know more about who I am and what I do
+          </p>
+        </div>
 
-    <main class="main-container">
-      <!-- Hero Section -->
-      <section class="hero-section" id="home">
-        <div class="container">
-          <div class="hero-content">
-            <div class="hero-text">
-              <h4 class="hero-greeting">Hello, I'm</h4>
-              <h1 class="hero-title">
-                Nikhil <span class="highlight">Agrahari</span>
-              </h1>
-              <p class="hero-subtitle">
-                Web Developer | Cybersecurity Enthusiast | BCA Student
+        <div class="about-content">
+          <div class="about-card">
+            <div class="about-text">
+              <h3>Hi, I'm <span class="highlight">Nikhil Agrahari</span></h3>
+              <p>
+                I'm a second-year BCA student at BBD University, Lucknow, with
+                a growing passion for web development, cybersecurity, and
+                ethical hacking. Currently working as a web developer, I enjoy
+                transforming concepts into interactive, user-friendly digital
+                solutions.
               </p>
-              <p class="hero-description">
-                Passionate about creating modern, user-friendly web applications
-                and exploring the world of cybersecurity. Transforming ideas
-                into interactive digital experiences.
+              <p>
+                I believe in writing clean, efficient code and building
+                projects that not only work but also create a real impact.
+                With a strong interest in cyber defense and ethical hacking,
+                I'm constantly expanding my skills to explore how technology
+                can be secured, optimized, and leveraged for innovation.
               </p>
+              <p>
+                My curiosity drives me to learn across multiple domains,
+                whether it's front-end development, back-end logic, or
+                safeguarding systems from threats. Beyond coding, I'm on a
+                journey of continuous growth and self-improvement—striving to
+                innovate, collaborate, and contribute to projects that truly
+                add value.
+              </p>
+            </div>
 
-              <div class="btn-container">
-                <a href="#contact" class="btn btn-primary">
-                  <i class="fas fa-envelope"></i> Get In Touch
-                </a>
-                <a href="#projects" class="btn btn-secondary">
-                  <i class="fas fa-code"></i> View Projects
-                </a>
+            <div class="about-info">
+              <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <p>nikhilagrahari530@gmail.com</p>
+                </div>
               </div>
-
-              <div class="social-icons">
-                <a
-                  href="https://github.com"
-                  target="_blank"
-                  aria-label="GitHub"
-                >
-                  <i class="fab fa-github"></i>
-                </a>
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  aria-label="LinkedIn"
-                >
-                  <i class="fab fa-linkedin"></i>
-                </a>
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  aria-label="Twitter"
-                >
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a
-                  href="https://instagram.com"
-                  target="_blank"
-                  aria-label="Instagram"
-                >
-                  <i class="fab fa-instagram"></i>
-                </a>
+              <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Location</h4>
+                  <p>Lucknow, India</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-graduation-cap"></i>
+                <div>
+                  <h4>Education</h4>
+                  <p>BCA, BBD University</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-briefcase"></i>
+                <div>
+                  <h4>Role</h4>
+                  <p>Web Developer</p>
+                </div>
               </div>
             </div>
 
-            <div class="hero-image">
-              <div class="image-wrapper">
-                <div class="image-border"></div>
-                <img
-                  src="./Public/Images/My-Pro_Img,,,,.png"
-                  alt="Nikhil Agrahari"
-                  loading="lazy"
-                />
-              </div>
+            <div class="resume-buttons">
+              <a href="Public/Images/Nikhil Resume.pdf" class="btn btn-primary" download>
+                <i class="fas fa-download"></i> Download Resume
+              </a>
+              <a href="Public/Images/Nikhil Resume.pdf" class="btn btn-secondary" target="_blank">
+                <i class="fas fa-eye"></i> View Resume
+              </a>
             </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="scroll-indicator">
-          <a href="#about">
-            <i class="fas fa-chevron-down"></i>
-          </a>
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My <span>Skills</span></h2>
+          <p class="section-subtitle">Technologies and tools I work with</p>
         </div>
-      </section>
 
-      <!-- About Section -->
-      <section class="about-section" id="about">
-        <div class="container">
-          <div class="section-header">
-            <h2 class="section-title">About <span>Me</span></h2>
-            <p class="section-subtitle">
-              Get to know more about who I am and what I do
-            </p>
+        <div class="skills-container">
+          <!-- Frontend Skills -->
+          <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Web Development</h3>
+            <div class="skill-cards">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="skill-card">
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML</p>
+              </a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="skill-card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS</p>
+              </a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="skill-card">
+                <i class="fa-brands fa-js"></i>
+                <p>JavaScript</p>
+              </a>
+              <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" class="skill-card">
+                <i class="fa-solid fa-c"></i>
+                <p>C</p>
+              </a>
+              <a href="https://www.python.org/" target="_blank" class="skill-card">
+                <i class="fa-brands fa-python"></i>
+                <p>Python</p>
+              </a>
+              <a href="https://www.java.com/" target="_blank" class="skill-card">
+                <i class="fa-brands fa-java"></i>
+                <p>Java</p>
+              </a>
+            </div>
           </div>
 
-          <div class="about-content">
-            <div class="about-card">
-              <div class="about-text">
-                <h3>Hi, I'm <span class="highlight">Nikhil Agrahari</span></h3>
-                <p>
-                  I'm a second-year BCA student at BBD University, Lucknow, with
-                  a growing passion for web development, cybersecurity, and
-                  ethical hacking. Currently working as a web developer, I enjoy
-                  transforming concepts into interactive, user-friendly digital
-                  solutions.
-                </p>
-                <p>
-                  I believe in writing clean, efficient code and building
-                  projects that not only work but also create a real impact.
-                  With a strong interest in cyber defense and ethical hacking,
-                  I'm constantly expanding my skills to explore how technology
-                  can be secured, optimized, and leveraged for innovation.
-                </p>
-                <p>
-                  My curiosity drives me to learn across multiple domains,
-                  whether it's front-end development, back-end logic, or
-                  safeguarding systems from threats. Beyond coding, I'm on a
-                  journey of continuous growth and self-improvement—striving to
-                  innovate, collaborate, and contribute to projects that truly
-                  add value.
-                </p>
+          <!-- Backend Skills -->
+          <div class="skill-category">
+            <h3><i class="fas fa-server"></i> Backend Development</h3>
+            <div class="skill-cards">
+              <div class="skill-card">
+                <i class="fab fa-node"></i>
+                <p>Node.js</p>
               </div>
-
-              <div class="about-info">
-                <div class="info-item">
-                  <i class="fas fa-envelope"></i>
-                  <div>
-                    <h4>Email</h4>
-                    <p>nikhilagrahari530@gmail.com</p>
-                  </div>
-                </div>
-                <div class="info-item">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <div>
-                    <h4>Location</h4>
-                    <p>Lucknow, India</p>
-                  </div>
-                </div>
-                <div class="info-item">
-                  <i class="fas fa-graduation-cap"></i>
-                  <div>
-                    <h4>Education</h4>
-                    <p>BCA, BBD University</p>
-                  </div>
-                </div>
-                <div class="info-item">
-                  <i class="fas fa-briefcase"></i>
-                  <div>
-                    <h4>Role</h4>
-                    <p>Web Developer</p>
-                  </div>
-                </div>
+              <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <p>MongoDB</p>
               </div>
-
-              <div class="resume-buttons">
-                <a href="Public/Images/Nikhil Resume.pdf" class="btn btn-primary" download>
-                  <i class="fas fa-download"></i> Download Resume
-                </a>
-                <a href="Public/Images/Nikhil Resume.pdf" class="btn btn-secondary" target="_blank">
-                  <i class="fas fa-eye"></i> View Resume
-                </a>
+              <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <p>MySQL</p>
+              </div>
+              <div class="skill-card">
+                <i class="fas fa-fire"></i>
+                <p>Firebase</p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      <!-- Skills Section -->
-      <section class="skills-section" id="skills">
-        <div class="container">
-          <div class="section-header">
-            <h2 class="section-title">My <span>Skills</span></h2>
-            <p class="section-subtitle">Technologies and tools I work with</p>
+          <!-- Tools & Technologies -->
+          <div class="skill-category">
+            <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+            <div class="skill-cards">
+              <a href="https://git-scm.com/" target="_blank" class="skill-card">
+                <i class="fa-brands fa-git-alt" style="color: #f05032"></i>
+                <p>Git</p>
+              </a>
+              <a href="" target="_blank" class="skill-card">
+                <i class="fa-brands fa-github"></i>
+                <p>GitHub</p>
+              </a>
+              <a href="https://www.linux.org/" target="_blank" class="skill-card">
+                <i class="fa-brands fa-linux"></i>
+                <p>Kali Linux</p>
+              </a>
+
+              <a href="https://www.figma.com/" target="_blank" class="skill-card">
+                <i class="fa-brands fa-figma"></i>
+                <p>Figma</p>
+              </a>
+              <a href="https://www.canva.com/" target="_blank" class="skill-card">
+                <i class="fa-solid fa-palette"></i>
+                <p>Canva</p>
+              </a>
+            </div>
           </div>
 
-          <div class="skills-container">
-            <!-- Frontend Skills -->
-            <div class="skill-category">
-              <h3><i class="fas fa-code"></i> Web Development</h3>
-              <div class="skill-cards">
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-                  target="_blank"
-                  class="skill-card"
-                >
-                  <i class="fa-brands fa-html5"></i>
-                  <p>HTML</p>
-                </a>
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-                  target="_blank"
-                  class="skill-card"
-                >
-                  <i class="fa-brands fa-css3-alt"></i>
-                  <p>CSS</p>
-                </a>
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-                  target="_blank"
-                  class="skill-card"
-                >
-                  <i class="fa-brands fa-js"></i>
-                  <p>JavaScript</p>
-                </a>
-                <a
-                  href="https://en.wikipedia.org/wiki/C_(programming_language)"
-                  target="_blank"
-                  class="skill-card"
-                >
-                  <i class="fa-solid fa-c"></i>
-                  <p>C</p>
-                </a>
-                <a
-                  href="https://www.python.org/"
-                  target="_blank"
-                  class="skill-card"
-                >
-                  <i class="fa-brands fa-python"></i>
-                  <p>Python</p>
-                </a>
-                <a
-                  href="https://www.java.com/"
-                  target="_blank"
-                  class="skill-card"
-                >
-                  <i class="fa-brands fa-java"></i>
-                  <p>Java</p>
-                </a>
-              </div>
-            </div>
-
-            <!-- Backend Skills -->
-            <div class="skill-category">
-              <h3><i class="fas fa-server"></i> Backend Development</h3>
-              <div class="skill-cards">
-                <div class="skill-card">
-                  <i class="fab fa-node"></i>
-                  <p>Node.js</p>
-                </div>
-                <div class="skill-card">
-                  <i class="fas fa-database"></i>
-                  <p>MongoDB</p>
-                </div>
-                <div class="skill-card">
-                  <i class="fas fa-database"></i>
-                  <p>MySQL</p>
-                </div>
-                <div class="skill-card">
-                  <i class="fas fa-fire"></i>
-                  <p>Firebase</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Tools & Technologies -->
-            <div class="skill-category">
-              <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
-              <div class="skill-cards">
-                <a
-                  href="https://git-scm.com/"
-                  target="_blank"
-                  class="skill-card"
-                >
-                  <i class="fa-brands fa-git-alt" style="color: #f05032"></i>
-                  <p>Git</p>
-                </a>
-                <a
-                  href="https://github.com/"
-                  target="_blank"
-                  class="skill-card"
-                >
-                  <i class="fa-brands fa-github"></i>
-                  <p>GitHub</p>
-                </a>
-                <a
-                  href="https://www.linux.org/"
-                  target="_blank"
-                  class="skill-card"
-                >
-                  <i class="fa-brands fa-linux"></i>
-                  <p>Kali Linux</p>
-                </a>
-
-                <a
-                  href="https://www.figma.com/"
-                  target="_blank"
-                  class="skill-card"
-                >
-                  <i class="fa-brands fa-figma"></i>
-                  <p>Figma</p>
-                </a>
-                <a
-                  href="https://www.canva.com/"
-                  target="_blank"
-                  class="skill-card"
-                >
-                  <i class="fa-solid fa-palette"></i>
-                  <p>Canva</p>
-                </a>
-              </div>
-            </div>
-
-            <!-- Cyber Security Tools -->
-            <div class="skill-category">
-              <h3>🔐 Cyber Security Tools</h3>
-              <div class="skill-cards">
-                <a href="https://nmap.org/" target="_blank" class="skill-card">
-                  <i class="fa-solid fa-network-wired"></i>
-                  <p>Nmap</p>
-                </a>
-                <a
-                  href="https://www.wireshark.org/"
-                  target="_blank"
-                  class="skill-card"
-                >
-                  <i class="fa-solid fa-wifi"></i>
-                  <p>Wireshark</p>
-                </a>
-                <a
-                  href="https://portswigger.net/burp"
-                  target="_blank"
-                  class="skill-card"
-                >
-                  <i class="fa-solid fa-bug"></i>
-                  <p>Burp Suite</p>
-                </a>
-                <a
-                  href="https://steghide.sourceforge.net/"
-                  target="_blank"
-                  class="skill-card"
-                >
-                  <i class="fa-solid fa-image"></i>
-                  <p>Steghide</p>
-                </a>
-                <a
-                  href="https://www.kali.org/"
-                  target="_blank"
-                  class="skill-card"
-                >
-                  <i class="fa-brands fa-linux"></i>
-                  <p>Kali Linux</p>
-                </a>
-              </div>
+          <!-- Cyber Security Tools -->
+          <div class="skill-category">
+            <h3>🔐 Cyber Security Tools</h3>
+            <div class="skill-cards">
+              <a href="https://nmap.org/" target="_blank" class="skill-card">
+                <i class="fa-solid fa-network-wired"></i>
+                <p>Nmap</p>
+              </a>
+              <a href="https://www.wireshark.org/" target="_blank" class="skill-card">
+                <i class="fa-solid fa-wifi"></i>
+                <p>Wireshark</p>
+              </a>
+              <a href="https://portswigger.net/burp" target="_blank" class="skill-card">
+                <i class="fa-solid fa-bug"></i>
+                <p>Burp Suite</p>
+              </a>
+              <a href="https://steghide.sourceforge.net/" target="_blank" class="skill-card">
+                <i class="fa-solid fa-image"></i>
+                <p>Steghide</p>
+              </a>
+              <a href="https://www.kali.org/" target="_blank" class="skill-card">
+                <i class="fa-brands fa-linux"></i>
+                <p>Kali Linux</p>
+              </a>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Projects Section -->
-      <section class="projects-section" id="projects">
-        <div class="container">
-          <div class="section-header">
-            <h2 class="section-title">Featured <span>Projects</span></h2>
-            <p class="section-subtitle">Some of my recent work and creations</p>
-          </div>
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured <span>Projects</span></h2>
+          <p class="section-subtitle">Some of my recent work and creations</p>
+        </div>
 
-          <!-- Filter Buttons -->
-          <div class="filter-buttons">
-            <button class="filter-btn active" data-filter="all">
-              All Projects
-            </button>
-            <button class="filter-btn" data-filter="web">Web Apps</button>
-            <button class="filter-btn" data-filter="ui">UI/UX</button>
-            <button class="filter-btn" data-filter="tool">Tools</button>
-          </div>
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">
+            All Projects
+          </button>
+          <button class="filter-btn" data-filter="web">Web Apps</button>
+          <button class="filter-btn" data-filter="ui">UI/UX</button>
+          <button class="filter-btn" data-filter="tool">Tools</button>
+        </div>
 
-          <div class="projects-grid">
-            <!-- Project 1 -->
-            <div class="project-card" data-category="ui">
-              <div class="project-image">
-                <img
-                  src="./Public/Images/Clone.png"
-                  alt="Amazon Clone"
-                  loading="lazy"
-                />
-                <div class="project-overlay">
-                  <a
-                    href="https://amazon-clone-agr.netlify.app/"
-                    class="project-link"
-                    aria-label="View project"
-                    target="_blank"
-                  >
-                    <i class="fas fa-external-link-alt"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="project-content">
-                <h3>Amazon UI Clone</h3>
-                <p>
-                  A pixel-perfect UI clone of Amazon built with HTML and CSS,
-                  featuring responsive design and smooth animations.
-                </p>
-                <div class="tags">
-                  <span>HTML</span>
-                  <span>CSS</span>
-                  <span>Responsive</span>
-                </div>
-                <div class="project-links">
-                  <a
-                    href="https://amazon-clone-agr.netlify.app/"
-                    class="btn btn-small btn-primary"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i class="fas fa-eye"></i> Live Demo
-                  </a>
-
-                  <a
-                    href="https://github.com/the-nikhilcodes/Web-Dev-Projects/tree/main/Amazon%20clone"
-                    class="btn btn-small btn-secondary" target="_blank"
-                  >
-                    <i class="fab fa-github"></i> Source Code
-                  </a>
-                </div>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card" data-category="ui">
+            <div class="project-image">
+              <img src="./Public/Images/Clone.png" alt="Amazon Clone" loading="lazy" />
+              <div class="project-overlay">
+                <a href="https://amazon-clone-agr.netlify.app/" class="project-link" aria-label="View project"
+                  target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
               </div>
             </div>
-
-            <!-- Project 2 -->
-            <div class="project-card" data-category="web">
-              <div class="project-image">
-                <img
-                  src="Public/Images/FoodImage.png"
-                  alt="Food Delivery Website"
-                  loading="lazy"
-                />
-                <div class="project-overlay">
-                  <a
-                    href="https://fastfeast-agr.netlify.app/"
-                    class="project-link"
-                    aria-label="View project"
-                    target="_blank"
-                  >
-                    <i class="fas fa-external-link-alt"></i>
-                  </a>
-                </div>
+            <div class="project-content">
+              <h3>Amazon UI Clone</h3>
+              <p>
+                A pixel-perfect UI clone of Amazon built with HTML and CSS,
+                featuring responsive design and smooth animations.
+              </p>
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Responsive</span>
               </div>
-              <div class="project-content">
-                <h3>Fast Feast</h3>
-                <p>
-                  A modern food delivery platform with interactive menu, cart
-                  functionality, and order tracking built with HTML, CSS, and
-                  JavaScript.
-                </p>
-                <div class="tags">
-                  <span>HTML</span>
-                  <span>CSS</span>
-                  <span>JavaScript</span>
-                </div>
-                <div class="project-links">
-                  <a
-                    href="https://fastfeast-agr.netlify.app/"
-                    class="btn btn-small btn-primary"
-                    target="_blank"
-                  >
-                    <i class="fas fa-eye"></i> Live Demo
-                  </a>
-                  <a
-                    href="https://github.com/the-nikhilcodes/Web-Dev-Projects/tree/main/Food%20Delivery%20Website"
-                    class="btn btn-small btn-secondary" target="_blank"
-                  >
-                    <i class="fab fa-github"></i> Source Code
-                  </a>
-                </div>
+              <div class="project-links">
+                <a href="https://amazon-clone-agr.netlify.app/" class="btn btn-small btn-primary" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="fas fa-eye"></i> Live Demo
+                </a>
+
+                <a href="the-nikhilcodes/Web-Dev-Projects/tree/main/Amazon%20clone" class="btn btn-small btn-secondary"
+                  target="_blank">
+                  <i class="fab fa-github"></i> Source Code
+                </a>
               </div>
             </div>
+          </div>
 
-            <!-- Project 3 -->
-            <div class="project-card" data-category="tool">
-              <div class="project-image">
-                <img
-                  src="Public/Images/YTimg.png"
-                  alt="YouTube Video Downloader"
-                  loading="lazy"
-                />
-                <div class="project-overlay">
-                  <a href="#" class="project-link" aria-label="View project">
-                    <i class="fas fa-external-link-alt"></i>
-                  </a>
-                </div>
+          <!-- Project 2 -->
+          <div class="project-card" data-category="web">
+            <div class="project-image">
+              <img src="Public/Images/FoodImage.png" alt="Food Delivery Website" loading="lazy" />
+              <div class="project-overlay">
+                <a href="https://fastfeast-agr.netlify.app/" class="project-link" aria-label="View project"
+                  target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
               </div>
-              <div class="project-content">
-                <h3>YouTube Video Downloader</h3>
-                <p>
-                  A Python-based tool for downloading YouTube videos with
-                  support for multiple formats and quality options.
-                </p>
-                <div class="tags">
-                  <span>Python</span>
-                  <span>API</span>
-                  <span>CLI</span>
-                </div>
-                <div class="project-links">
-                  <!-- <a href="#" class="btn btn-small btn-primary">
+            </div>
+            <div class="project-content">
+              <h3>Fast Feast</h3>
+              <p>
+                A modern food delivery platform with interactive menu, cart
+                functionality, and order tracking built with HTML, CSS, and
+                JavaScript.
+              </p>
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://fastfeast-agr.netlify.app/" class="btn btn-small btn-primary" target="_blank">
+                  <i class="fas fa-eye"></i> Live Demo
+                </a>
+                <a href="the-nikhilcodes/Web-Dev-Projects/tree/main/Food%20Delivery%20Website"
+                  class="btn btn-small btn-secondary" target="_blank">
+                  <i class="fab fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card" data-category="tool">
+            <div class="project-image">
+              <img src="Public/Images/YTimg.png" alt="YouTube Video Downloader" loading="lazy" />
+              <div class="project-overlay">
+                <a href="#" class="project-link" aria-label="View project">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>YouTube Video Downloader</h3>
+              <p>
+                A Python-based tool for downloading YouTube videos with
+                support for multiple formats and quality options.
+              </p>
+              <div class="tags">
+                <span>Python</span>
+                <span>API</span>
+                <span>CLI</span>
+              </div>
+              <div class="project-links">
+                <!-- <a href="#" class="btn btn-small btn-primary">
                                     <i class="fas fa-eye"></i> Coming Soon
                                 </a> -->
-                  <a
-                    href="https://github.com/the-nikhilcodes/Python-projects/tree/main/YT%20video%20downloader"
-                    class="btn btn-small btn-secondary" target="_blank"
-                  >
-                    <i class="fab fa-github"></i> Source Code
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- More Projects Coming Soon -->
-            <div class="project-card coming-soon" data-category="all">
-              <div class="coming-soon-content">
-                <i class="fas fa-rocket"></i>
-                <h3>More Projects Coming Soon</h3>
-                <p>
-                  I'm constantly working on new and exciting projects. Stay
-                  tuned for updates!
-                </p>
+                <a href="the-nikhilcodes/Python-projects/tree/main/YT%20video%20downloader"
+                  class="btn btn-small btn-secondary" target="_blank">
+                  <i class="fab fa-github"></i> Source Code
+                </a>
               </div>
             </div>
           </div>
 
-          <div class="view-all-container">
-            <a href="articles.html" class="btn btn-primary" target="_blank"> 
-              <i class="fas fa-th"></i> View All Articles
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <!-- Contact Section -->
-      <section class="contact-section" id="contact">
-        <div class="container">
-          <div class="section-header">
-            <h2 class="section-title">Get In <span>Touch</span></h2>
-            <p class="section-subtitle">
-              I'm always interested in discussing new opportunities and
-              collaborations
-            </p>
-          </div>
-
-          <div class="contact-container">
-            <!-- Contact Info -->
-            <div class="contact-info">
-              <h3>Let's Connect</h3>
+          <!-- More Projects Coming Soon -->
+          <div class="project-card coming-soon" data-category="all">
+            <div class="coming-soon-content">
+              <i class="fas fa-rocket"></i>
+              <h3>More Projects Coming Soon</h3>
               <p>
-                I'm always interested in discussing new opportunities,
-                collaborating on projects, or just having a tech conversation.
-                Reach out to me via email or socials!
+                I'm constantly working on new and exciting projects. Stay
+                tuned for updates!
               </p>
-
-              <div class="contact-details">
-                <div class="contact-item">
-                  <i class="fas fa-envelope"></i>
-                  <div>
-                    <h4>Email</h4>
-                    <a href="mailto:nikhilagrahari530@gmail.com"
-                      >nikhilagrahari530@gmail.com</a
-                    >
-                  </div>
-                </div>
-                <div class="contact-item">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <div>
-                    <h4>Location</h4>
-                    <p>Lucknow, India</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="social-links">
-                <a href="https://github.com/nikhilxagr" target="_blank">
-                  <i class="fab fa-github"></i>
-                  <span>GitHub</span>
-                </a>
-                <a href="https://linkedin.com/nikhilxagr" target="_blank">
-                  <i class="fab fa-linkedin"></i>
-                  <span>LinkedIn</span>
-                </a>
-                <a href="https://twitter.com/nikhilxagr" target="_blank">
-                  <i class="fab fa-twitter"></i>
-                  <span>Twitter</span>
-                </a>
-                <a href="https://instagram.com/codewith.nikhil" target="_blank">
-                  <i class="fab fa-instagram"></i>
-                  <span>Instagram</span>
-                </a>
-              </div>
-            </div>
-
-            <!-- Contact Form -->
-            <div class="contact-form-wrapper">
-              <form
-                class="contact-form"
-                id="contact-form"
-                action="https://formspree.io/f/mdkwlbav"
-                method="POST"
-              >
-                <div class="form-group">
-                  <label for="name">Full Name *</label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    required
-                    
-                  />
-                </div>
-
-                <div class="form-group">
-                  <label for="email">Email Address *</label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                 
-                  />
-                </div>
-
-                <div class="form-group">
-                  <label for="subject">Subject *</label>
-                  <input
-                    type="text"
-                    id="subject"
-                    name="subject"
-                    required
-                  
-                  />
-                </div>
-
-                <div class="form-group">
-                  <label for="message">Message *</label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows="5"
-                    required
-                    
-                  ></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-primary btn-submit">
-                  <i class="fas fa-paper-plane"></i> Send Message
-                </button>
-              </form>
             </div>
           </div>
         </div>
-      </section>
-    </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="footer-container">
-        <p>
-          &copy; 2025 Nikhil Agrahari. All rights reserved. Built with
-          <i class="fas fa-heart"></i> and dedication.
-        </p>
-        <div class="footer-links">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+        <div class="view-all-container">
+          <a href="articles.html" class="btn btn-primary" target="_blank">
+            <i class="fas fa-th"></i> View All Articles
+          </a>
         </div>
       </div>
-    </footer>
+    </section>
 
-    <!-- Notification Container -->
-    <div id="notification-container"></div>
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In <span>Touch</span></h2>
+          <p class="section-subtitle">
+            I'm always interested in discussing new opportunities and
+            collaborations
+          </p>
+        </div>
 
-    <!-- Custom JavaScript -->
-    <script src="script.js"></script>
-  </body>
+        <div class="contact-container">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <h3>Let's Connect</h3>
+            <p>
+              I'm always interested in discussing new opportunities,
+              collaborating on projects, or just having a tech conversation.
+              Reach out to me via email or socials!
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <a href="mailto:nikhilagrahari530@gmail.com">nikhilagrahari530@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Location</h4>
+                  <p>Lucknow, India</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="nikhilxagr" target="_blank">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="https://linkedin.com/nikhilxagr" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://twitter.com/nikhilxagr" target="_blank">
+                <i class="fab fa-twitter"></i>
+                <span>Twitter</span>
+              </a>
+              <a href="https://instagram.com/codewith.nikhil" target="_blank">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="contact-form" action="https://formspree.io/f/mdkwlbav" method="POST">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject *</label>
+                <input type="text" id="subject" name="subject" required />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>
+        &copy; 2025 Nikhil Agrahari. All rights reserved. Built with
+        <i class="fas fa-heart"></i> and dedication.
+      </p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Notification Container -->
+  <div id="notification-container"></div>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+
 </html>
